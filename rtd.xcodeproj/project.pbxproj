@@ -17,9 +17,9 @@
 		EC113CDB1D2C1CF100832DD1 /* TransitRealtime.GtfsRealtimeProtoTxt.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC113CDA1D2C1CF100832DD1 /* TransitRealtime.GtfsRealtimeProtoTxt.proto.swift */; };
 		EC7FB9B51D2C459900A67A21 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7FB9B41D2C459900A67A21 /* MapKit.framework */; };
 		EC7FB9B91D2C5E6D00A67A21 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7FB9B81D2C5E6D00A67A21 /* arrow.png */; };
-		EC7FB9BC1D2D6B2800A67A21 /* TripUpdate-3.pb in Resources */ = {isa = PBXBuildFile; fileRef = EC7FB9BA1D2D6B2800A67A21 /* TripUpdate-3.pb */; };
-		EC7FB9BD1D2D6B2800A67A21 /* VehiclePosition-3.pb in Resources */ = {isa = PBXBuildFile; fileRef = EC7FB9BB1D2D6B2800A67A21 /* VehiclePosition-3.pb */; };
-		EC7FB9C01D2DAFBD00A67A21 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC7FB9BF1D2DAFBD00A67A21 /* stops.txt */; };
+		EC7FB9CA1D2EC67C00A67A21 /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC7FB9C71D2EC67C00A67A21 /* stops.txt */; };
+		EC7FB9CB1D2EC67C00A67A21 /* TripUpdate-3.pb in Resources */ = {isa = PBXBuildFile; fileRef = EC7FB9C81D2EC67C00A67A21 /* TripUpdate-3.pb */; };
+		EC7FB9CC1D2EC67C00A67A21 /* VehiclePosition-3.pb in Resources */ = {isa = PBXBuildFile; fileRef = EC7FB9C91D2EC67C00A67A21 /* VehiclePosition-3.pb */; };
 		F085D3FF375C3E9C6BEC6D21 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FBFA9B51B91E58B2FA2C89 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,9 +60,9 @@
 		EC113CDA1D2C1CF100832DD1 /* TransitRealtime.GtfsRealtimeProtoTxt.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitRealtime.GtfsRealtimeProtoTxt.proto.swift; path = ../../../Desktop/rtd/TransitRealtime.GtfsRealtimeProtoTxt.proto.swift; sourceTree = "<group>"; };
 		EC7FB9B41D2C459900A67A21 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EC7FB9B81D2C5E6D00A67A21 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
-		EC7FB9BA1D2D6B2800A67A21 /* TripUpdate-3.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TripUpdate-3.pb"; path = "../../../Desktop/rtd/data/TripUpdate-3.pb"; sourceTree = "<group>"; };
-		EC7FB9BB1D2D6B2800A67A21 /* VehiclePosition-3.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VehiclePosition-3.pb"; path = "../../../Desktop/rtd/data/VehiclePosition-3.pb"; sourceTree = "<group>"; };
-		EC7FB9BF1D2DAFBD00A67A21 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		EC7FB9C71D2EC67C00A67A21 /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = stops.txt; path = data/stops.txt; sourceTree = "<group>"; };
+		EC7FB9C81D2EC67C00A67A21 /* TripUpdate-3.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TripUpdate-3.pb"; path = "data/TripUpdate-3.pb"; sourceTree = "<group>"; };
+		EC7FB9C91D2EC67C00A67A21 /* VehiclePosition-3.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VehiclePosition-3.pb"; path = "data/VehiclePosition-3.pb"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +169,9 @@
 		EC7FB9AF1D2C210600A67A21 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				EC7FB9BF1D2DAFBD00A67A21 /* stops.txt */,
-				EC7FB9BA1D2D6B2800A67A21 /* TripUpdate-3.pb */,
-				EC7FB9BB1D2D6B2800A67A21 /* VehiclePosition-3.pb */,
+				EC7FB9C71D2EC67C00A67A21 /* stops.txt */,
+				EC7FB9C81D2EC67C00A67A21 /* TripUpdate-3.pb */,
+				EC7FB9C91D2EC67C00A67A21 /* VehiclePosition-3.pb */,
 			);
 			name = data;
 			sourceTree = "<group>";
@@ -284,11 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC7FB9B91D2C5E6D00A67A21 /* arrow.png in Resources */,
-				EC7FB9BC1D2D6B2800A67A21 /* TripUpdate-3.pb in Resources */,
+				EC7FB9CB1D2EC67C00A67A21 /* TripUpdate-3.pb in Resources */,
+				EC7FB9CA1D2EC67C00A67A21 /* stops.txt in Resources */,
 				EC113C9F1D2C1B8100832DD1 /* LaunchScreen.storyboard in Resources */,
-				EC7FB9BD1D2D6B2800A67A21 /* VehiclePosition-3.pb in Resources */,
-				EC7FB9C01D2DAFBD00A67A21 /* stops.txt in Resources */,
 				EC113C9C1D2C1B8100832DD1 /* Assets.xcassets in Resources */,
+				EC7FB9CC1D2EC67C00A67A21 /* VehiclePosition-3.pb in Resources */,
 				EC113C9A1D2C1B8100832DD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
