@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        try! TripUpdateManager.sharedInstance.load(with: NSBundle.mainBundle().URLForResource("TripUpdate-3.pb", withExtension: nil)!)
+        try! VehiclePositionManager.sharedInstance.load(with: NSBundle.mainBundle().URLForResource("VehiclePosition-3.pb", withExtension: nil)!)
         return true
     }
 

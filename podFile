@@ -1,0 +1,4 @@
+use_frameworks!
+
+xcodeproj 'rtd.xcodeproj'
+pod 'ProtocolBuffers-Swift'
